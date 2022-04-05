@@ -9,17 +9,122 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.name {
-    background-color: white;
-    font-size: 40px;
-    padding: 10px 15px;
+h2 {
+    margin-bottom: 10px;
 }
 
 img.logo {
     vertical-align: middle;
 }
 
-.lists {
+.name {
+    background-color: white;
+    font-size: 40px;
+    padding: 10px 15px;
+    margin-bottom: 40px;
+}
+
+.buttons, .lists {
     background-color: white;
     width: 900px;
+    margin: auto;
+}
+
+.buttons {
+    margin-bottom: 2px;
+    border-radius: 5px 5px 0 0;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 13px;
+    padding-top: 7px;
+}
+
+.one {
+    width: 80px;
+    background-color: #47ADF1;
+    color: white;
+    margin: 10px 2px 5px 50px;
+}
+
+.two {
+    width: 100px;
+    border: 1px solid #C5CBD0;
+    color: #C5CBD0;
+    margin: 10px 5px 5px 2px;
+}
+
+.lists {
+    padding: 40px 50px;
+    margin-bottom: 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+.task, .today, .upcoming {
+    color: #444851;
+    margin-bottom: 30px;
+}
+
+.row {
+    margin-bottom: 15px;
+}
+
+.check {
+    color: #73C8B4;
+    border: 1px solid #73C8B4;
+    padding: 2px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.cross {
+    color:#EB4C42;
+    border: 1px solid #EB4C42;
+    padding: 2px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.description {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 11px;
+    padding-top: 7px;
+}
+
+.editorial {
+    background-color: #45ABEA;
+    width: 65px;
+}
+
+.q1-goals {
+    background-color: #9C72E4;
+    width: 70px;
+}
+
+.recruiting {
+    background-color: #64C0A9;
+    width: 70px;
+}
+
+.mobile {
+    background-color: #F29E33;
+    width: 55px;
+}
+
+.website {
+    background-color: #D863A1;
+    width: 65px;
+}
+
+.sales {
+    background-color: #B0C926;
+    width: 55px;
 }
